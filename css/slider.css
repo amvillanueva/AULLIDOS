@@ -1,0 +1,38 @@
+#particles-js{
+background:url(../img/original.jpg);
+background-position: center;
+background-attachment: contain;  /*obliga a imagen a estar dentro de las posiciones*/
+background-size: cover; /*para q tenga mismo tamaño del contenedor cuando agrangas o achcias el navegador*/
+
+
+}
+
+
+.ancho-letras{
+top: 200px;
+position: absolute;
+width: 100%;
+/*background: rgba(0, 0, 0, 8);*/
+text-align: center;
+z-index:1; /*para q tenga menos  importancia que las letras del header.css*/
+}
+
+.letras-slider{
+width: 80%;
+margin: auto; /*para que este centrado*/
+color: rgba(50, 50, 60, 100);
+}
+
+.letras-slider h1{
+    color:#fff;
+    font-family: letralogo;
+    font-size: 90px;
+}
+
+.letras-slider p{
+    color:#fff;
+    font-family: letradesc;
+    font-size: 30px;
+    padding-top: 50px;  /*separa un poco el titulo del parrafo*/
+
+}

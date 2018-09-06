@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding: 0;
+}
+
+header{
+width: 100%;
+background: rgba(0, 4, 15,.8);
+height: 70px;
+position:fixed; /*que el header se quede fijo a la hora q desplegamos pagina hacia abajo*/
+z-index:10;  /*para q tenga mayor importancia que las letras del slider.css*/
+}
+
+.ancho{
+width: 80%;
+height: 70px;
+/*background: red;*/
+margin: auto;
+}
+
+
+.logoimg{
+    width:5%;
+    height: 70px;
+    float: left;    
+    background:url('../img/logonegro.png');
+   /* background-attachment: contain;  /*obliga a imagen a estar dentro de las posiciones*/
+background-size: cover; /*para q tenga mismo tamaño del contenedor cuando agrangas o achcias el navegador*/
+background-position: center;
+}
+
+
+.logo{
+    width:20%;
+    height: 70px;
+  /* background: red;/*#0B2161;*/
+    float: left;
+    padding-top: 10px;
+
+    box-sizing: border-box; /*EVITA QUE SE SALGA DE LA CAJA*/
+    font-weight: bold;
+    font-family: letradesc;
+    text-align: center;
+}
+.logo p a {
+    color:#fff;
+    font-size: 35px;  
+    text-decoration: none;
+    font-family: letralogo;
+    text-decoration-line: inherit;
+
+}
+nav{
+    width:75%;
+    height: 70px;    
+    /*background: #0B2161;   */ 
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box; 
+}
+
+
+nav ul li {
+display: inline;
+
+}
+
+nav ul li  a {
+color:#fff;
+font-size: 13px;
+text-decoration: none;
+text-transform: uppercase;
+padding-left: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+font-family: letradesc;
+}
+
+nav ul li  a:hover{ /*cuadno se pase el mouse sobre */
+    color:#F5F6CE;
+}
+
+@font-face{
+    font-family: letradesc;
+    src:url(fuentes/Raleway-Regular.ttf);
+}
+
+@font-face{
+    font-family: letralogo;
+    src:url(fuentes/Brush-Script.ttf);
+}
+
+@font-face{
+    font-family: latoletrageneral;
+    src:url(fuentes/Lato-Light.ttf);
+}
+

@@ -1,0 +1,42 @@
+.contenedor-columnas  {
+   width:100%; /*ancho 100%*/
+   margin:auto; /*para q todo este centrado*/
+   margin-bottom: 50px;  
+    }
+
+    .escolumna{
+
+    width:33.333%;
+    float:left; /*para q las columnas se alinee mas a la izquierda posible*/
+    /*padding-top: 20px;  /*el padding top no se puede agregar directamente a secciones */
+    padding: 20px 20px;  /*padding: espacioarribaAbajo  espacioizquierdaDerecha*/
+    box-sizing: border-box; /*le estamos obligando q escolumna ocupa el*/
+                        /*33.333% y q no respete a los paddings*/   
+    margin:auto; /*para q todo este centrado*/
+
+    }
+
+        .escolumna img{
+            width:100%;
+        }
+    h4{
+       margin-top:15px;
+       font-size: 16px;
+    }
+
+    h5{
+       font-family: letradesc;
+       line-height: 1.5;
+       font-weight: normal;
+       padding: 10px 0;
+       font-size: 12px;
+        }
+
+    p{
+        color:#888;
+        font-family: letradesc;
+        font-size: 15px;
+
+
+
+    }

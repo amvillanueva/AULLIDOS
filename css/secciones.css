@@ -1,0 +1,38 @@
+h1, h2,  h4 ,h5, h6 {
+    text-transform: uppercase;
+    color: #444;
+    letter-spacing: 1px; /*cada letra se separe d eotra en 1px*/
+    
+}
+
+
+h2{
+    font-family: letradesc;
+    color:#333;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: latoletrageneral;
+font-size: 20px;
+line-height: 1.5;
+padding-top: 20px;
+font-weight: normal;
+color:#777;
+}
+.todowap{
+width:90%;
+margin: auto;
+
+
+}
+
+.bienvenidos{
+margin-top: 50px;
+text-align: center;
+}
+
+
+
+

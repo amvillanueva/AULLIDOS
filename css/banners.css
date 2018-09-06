@@ -1,0 +1,12 @@
+.banner1{
+    width: 100%;
+    background: #1ABC9C;
+    clear: both; /*este ncomando se agrega si en la seccion anterior se usaron flotaciones (LEFT)*/
+    padding-top: 30px ;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    padding-bottom: 50px ;
+    margin:auto;
+    text-align: center;
+    box-sizing: border-box;
+}
